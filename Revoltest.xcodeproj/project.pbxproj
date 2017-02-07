@@ -1,0 +1,696 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		076C27591E474F2A00196880 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 076C27561E474F2A00196880 /* AppDelegate.m */; };
+		076C275A1E474F2A00196880 /* CurrencyExchangerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 076C27581E474F2A00196880 /* CurrencyExchangerVC.m */; };
+		076C27601E4757B100196880 /* CurrencyVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 076C275F1E4757B100196880 /* CurrencyVC.m */; };
+		076C27661E4788D700196880 /* UIStackView+Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 076C27651E4788D700196880 /* UIStackView+Test.m */; };
+		076C276C1E47AA7800196880 /* CurrencyPagerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 076C276B1E47AA7800196880 /* CurrencyPagerVC.m */; };
+		076C276F1E47B55D00196880 /* NSArray+Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 076C276E1E47B55D00196880 /* NSArray+Test.m */; };
+		076C27771E48A18E00196880 /* CurrencyAmountModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 076C27761E48A18E00196880 /* CurrencyAmountModel.m */; };
+		076C27791E48AAB500196880 /* CurrencyAmountModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 076C27761E48A18E00196880 /* CurrencyAmountModel.m */; };
+		076C277C1E48AAD900196880 /* CurrencyRateModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 076C277B1E48AAD900196880 /* CurrencyRateModel.m */; };
+		076C277D1E48AAD900196880 /* CurrencyRateModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 076C277B1E48AAD900196880 /* CurrencyRateModel.m */; };
+		076C27801E48AE6C00196880 /* CurrencyPair.m in Sources */ = {isa = PBXBuildFile; fileRef = 076C277F1E48AE6C00196880 /* CurrencyPair.m */; };
+		076C27811E48AE6C00196880 /* CurrencyPair.m in Sources */ = {isa = PBXBuildFile; fileRef = 076C277F1E48AE6C00196880 /* CurrencyPair.m */; };
+		076C27841E493A1100196880 /* RootVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 076C27831E493A1100196880 /* RootVC.m */; };
+		07F2D3781E44CEFB00E7F62A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F2D3771E44CEFB00E7F62A /* main.m */; };
+		07F2D3811E44CEFB00E7F62A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07F2D37F1E44CEFB00E7F62A /* Main.storyboard */; };
+		07F2D3831E44CEFB00E7F62A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07F2D3821E44CEFB00E7F62A /* Assets.xcassets */; };
+		07F2D3861E44CEFB00E7F62A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07F2D3841E44CEFB00E7F62A /* LaunchScreen.storyboard */; };
+		07F2D3911E44CEFB00E7F62A /* RevoltestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F2D3901E44CEFB00E7F62A /* RevoltestTests.m */; };
+		E072F6942C038FD2EDEE738E /* libPods-RevoltestTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B11AB5202CBF9B7677861086 /* libPods-RevoltestTests.a */; };
+		F8995AD73C8361E1680799DB /* libPods-Revoltest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C935CBBE3E625D97CFF74DB /* libPods-Revoltest.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07F2D38D1E44CEFB00E7F62A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07F2D36B1E44CEFB00E7F62A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07F2D3721E44CEFB00E7F62A;
+			remoteInfo = Revoltest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		076C27551E474F2A00196880 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = src/AppDelegate.h; sourceTree = "<group>"; };
+		076C27561E474F2A00196880 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = src/AppDelegate.m; sourceTree = "<group>"; };
+		076C27571E474F2A00196880 /* CurrencyExchangerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CurrencyExchangerVC.h; path = src/CurrencyExchangerVC.h; sourceTree = "<group>"; };
+		076C27581E474F2A00196880 /* CurrencyExchangerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CurrencyExchangerVC.m; path = src/CurrencyExchangerVC.m; sourceTree = "<group>"; };
+		076C275C1E47563900196880 /* CurrencyType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CurrencyType.h; path = src/CurrencyType.h; sourceTree = "<group>"; };
+		076C275E1E4757B100196880 /* CurrencyVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CurrencyVC.h; path = src/CurrencyVC.h; sourceTree = "<group>"; };
+		076C275F1E4757B100196880 /* CurrencyVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CurrencyVC.m; path = src/CurrencyVC.m; sourceTree = "<group>"; };
+		076C27641E4788D700196880 /* UIStackView+Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIStackView+Test.h"; path = "src/UIStackView+Test.h"; sourceTree = "<group>"; };
+		076C27651E4788D700196880 /* UIStackView+Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIStackView+Test.m"; path = "src/UIStackView+Test.m"; sourceTree = "<group>"; };
+		076C27681E47945300196880 /* CurrencyConversionDirection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CurrencyConversionDirection.h; path = src/CurrencyConversionDirection.h; sourceTree = "<group>"; };
+		076C27691E47946A00196880 /* Extensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Extensions.h; path = src/Extensions.h; sourceTree = "<group>"; };
+		076C276A1E47AA7800196880 /* CurrencyPagerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CurrencyPagerVC.h; path = src/CurrencyPagerVC.h; sourceTree = "<group>"; };
+		076C276B1E47AA7800196880 /* CurrencyPagerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CurrencyPagerVC.m; path = src/CurrencyPagerVC.m; sourceTree = "<group>"; };
+		076C276D1E47B55D00196880 /* NSArray+Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSArray+Test.h"; path = "src/NSArray+Test.h"; sourceTree = "<group>"; };
+		076C276E1E47B55D00196880 /* NSArray+Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSArray+Test.m"; path = "src/NSArray+Test.m"; sourceTree = "<group>"; };
+		076C27701E47B57900196880 /* Style.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Style.h; path = src/Style.h; sourceTree = "<group>"; };
+		076C27711E47C82300196880 /* CurrencyVC+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CurrencyVC+Private.h"; path = "src/CurrencyVC+Private.h"; sourceTree = "<group>"; };
+		076C27751E48A18E00196880 /* CurrencyAmountModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CurrencyAmountModel.h; path = src/CurrencyAmountModel.h; sourceTree = "<group>"; };
+		076C27761E48A18E00196880 /* CurrencyAmountModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CurrencyAmountModel.m; path = src/CurrencyAmountModel.m; sourceTree = "<group>"; };
+		076C27781E48A2AA00196880 /* Macros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Macros.h; path = src/Macros.h; sourceTree = "<group>"; };
+		076C277A1E48AAD900196880 /* CurrencyRateModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CurrencyRateModel.h; path = src/CurrencyRateModel.h; sourceTree = "<group>"; };
+		076C277B1E48AAD900196880 /* CurrencyRateModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CurrencyRateModel.m; path = src/CurrencyRateModel.m; sourceTree = "<group>"; };
+		076C277E1E48AE6C00196880 /* CurrencyPair.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CurrencyPair.h; path = src/CurrencyPair.h; sourceTree = "<group>"; };
+		076C277F1E48AE6C00196880 /* CurrencyPair.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CurrencyPair.m; path = src/CurrencyPair.m; sourceTree = "<group>"; };
+		076C27821E493A1100196880 /* RootVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RootVC.h; path = src/RootVC.h; sourceTree = "<group>"; };
+		076C27831E493A1100196880 /* RootVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RootVC.m; path = src/RootVC.m; sourceTree = "<group>"; };
+		07F2D3731E44CEFB00E7F62A /* Revoltest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Revoltest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07F2D3771E44CEFB00E7F62A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		07F2D3801E44CEFB00E7F62A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		07F2D3821E44CEFB00E7F62A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		07F2D3851E44CEFB00E7F62A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		07F2D3871E44CEFB00E7F62A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07F2D38C1E44CEFB00E7F62A /* RevoltestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RevoltestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07F2D3901E44CEFB00E7F62A /* RevoltestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RevoltestTests.m; sourceTree = "<group>"; };
+		07F2D3921E44CEFB00E7F62A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		270676D6DAB64EBAC00306BF /* Pods-RevoltestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RevoltestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RevoltestTests/Pods-RevoltestTests.release.xcconfig"; sourceTree = "<group>"; };
+		3C935CBBE3E625D97CFF74DB /* libPods-Revoltest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Revoltest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B11AB5202CBF9B7677861086 /* libPods-RevoltestTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RevoltestTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8B2BEB9643C969B1D68B6A2 /* Pods-Revoltest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Revoltest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Revoltest/Pods-Revoltest.debug.xcconfig"; sourceTree = "<group>"; };
+		F971EACFD69B334B2D0A8E8F /* Pods-Revoltest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Revoltest.release.xcconfig"; path = "Pods/Target Support Files/Pods-Revoltest/Pods-Revoltest.release.xcconfig"; sourceTree = "<group>"; };
+		F98DBCCC6E517801273F3EBA /* Pods-RevoltestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RevoltestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RevoltestTests/Pods-RevoltestTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07F2D3701E44CEFB00E7F62A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8995AD73C8361E1680799DB /* libPods-Revoltest.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07F2D3891E44CEFB00E7F62A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E072F6942C038FD2EDEE738E /* libPods-RevoltestTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		076C27541E474F1D00196880 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				076C27631E4788A900196880 /* Extensions */,
+				076C27611E4783AC00196880 /* Style */,
+				076C275B1E4750FF00196880 /* Currency */,
+				076C27551E474F2A00196880 /* AppDelegate.h */,
+				076C27561E474F2A00196880 /* AppDelegate.m */,
+				076C27821E493A1100196880 /* RootVC.h */,
+				076C27831E493A1100196880 /* RootVC.m */,
+				076C27781E48A2AA00196880 /* Macros.h */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		076C275B1E4750FF00196880 /* Currency */ = {
+			isa = PBXGroup;
+			children = (
+				076C27741E48A17400196880 /* Data */,
+				076C275D1E47577E00196880 /* UI */,
+				076C275C1E47563900196880 /* CurrencyType.h */,
+				076C27681E47945300196880 /* CurrencyConversionDirection.h */,
+			);
+			name = Currency;
+			sourceTree = "<group>";
+		};
+		076C275D1E47577E00196880 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				076C27571E474F2A00196880 /* CurrencyExchangerVC.h */,
+				076C27581E474F2A00196880 /* CurrencyExchangerVC.m */,
+				076C275E1E4757B100196880 /* CurrencyVC.h */,
+				076C275F1E4757B100196880 /* CurrencyVC.m */,
+				076C276A1E47AA7800196880 /* CurrencyPagerVC.h */,
+				076C276B1E47AA7800196880 /* CurrencyPagerVC.m */,
+				076C27711E47C82300196880 /* CurrencyVC+Private.h */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		076C27611E4783AC00196880 /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				076C27701E47B57900196880 /* Style.h */,
+			);
+			name = Style;
+			sourceTree = "<group>";
+		};
+		076C27631E4788A900196880 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				076C27641E4788D700196880 /* UIStackView+Test.h */,
+				076C27651E4788D700196880 /* UIStackView+Test.m */,
+				076C27691E47946A00196880 /* Extensions.h */,
+				076C276D1E47B55D00196880 /* NSArray+Test.h */,
+				076C276E1E47B55D00196880 /* NSArray+Test.m */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		076C27741E48A17400196880 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				076C27751E48A18E00196880 /* CurrencyAmountModel.h */,
+				076C27761E48A18E00196880 /* CurrencyAmountModel.m */,
+				076C277A1E48AAD900196880 /* CurrencyRateModel.h */,
+				076C277B1E48AAD900196880 /* CurrencyRateModel.m */,
+				076C277E1E48AE6C00196880 /* CurrencyPair.h */,
+				076C277F1E48AE6C00196880 /* CurrencyPair.m */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		07F2D36A1E44CEFB00E7F62A = {
+			isa = PBXGroup;
+			children = (
+				07F2D3751E44CEFB00E7F62A /* Revoltest */,
+				07F2D38F1E44CEFB00E7F62A /* RevoltestTests */,
+				07F2D3741E44CEFB00E7F62A /* Products */,
+				9DAD1152A17E7BD580DB54C7 /* Pods */,
+				459D5A1068BD41BEFDEC760A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		07F2D3741E44CEFB00E7F62A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07F2D3731E44CEFB00E7F62A /* Revoltest.app */,
+				07F2D38C1E44CEFB00E7F62A /* RevoltestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07F2D3751E44CEFB00E7F62A /* Revoltest */ = {
+			isa = PBXGroup;
+			children = (
+				076C27541E474F1D00196880 /* Classes */,
+				07F2D37F1E44CEFB00E7F62A /* Main.storyboard */,
+				07F2D3821E44CEFB00E7F62A /* Assets.xcassets */,
+				07F2D3841E44CEFB00E7F62A /* LaunchScreen.storyboard */,
+				07F2D3871E44CEFB00E7F62A /* Info.plist */,
+				07F2D3761E44CEFB00E7F62A /* Supporting Files */,
+			);
+			path = Revoltest;
+			sourceTree = "<group>";
+		};
+		07F2D3761E44CEFB00E7F62A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07F2D3771E44CEFB00E7F62A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		07F2D38F1E44CEFB00E7F62A /* RevoltestTests */ = {
+			isa = PBXGroup;
+			children = (
+				07F2D3901E44CEFB00E7F62A /* RevoltestTests.m */,
+				07F2D3921E44CEFB00E7F62A /* Info.plist */,
+			);
+			path = RevoltestTests;
+			sourceTree = "<group>";
+		};
+		459D5A1068BD41BEFDEC760A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C935CBBE3E625D97CFF74DB /* libPods-Revoltest.a */,
+				B11AB5202CBF9B7677861086 /* libPods-RevoltestTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9DAD1152A17E7BD580DB54C7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F8B2BEB9643C969B1D68B6A2 /* Pods-Revoltest.debug.xcconfig */,
+				F971EACFD69B334B2D0A8E8F /* Pods-Revoltest.release.xcconfig */,
+				F98DBCCC6E517801273F3EBA /* Pods-RevoltestTests.debug.xcconfig */,
+				270676D6DAB64EBAC00306BF /* Pods-RevoltestTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07F2D3721E44CEFB00E7F62A /* Revoltest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07F2D3951E44CEFB00E7F62A /* Build configuration list for PBXNativeTarget "Revoltest" */;
+			buildPhases = (
+				18501E35307D39AC6BDE26FB /* [CP] Check Pods Manifest.lock */,
+				07F2D36F1E44CEFB00E7F62A /* Sources */,
+				07F2D3701E44CEFB00E7F62A /* Frameworks */,
+				07F2D3711E44CEFB00E7F62A /* Resources */,
+				62560C511EA5370D305C7F40 /* [CP] Embed Pods Frameworks */,
+				F3E97E331D78A1AD4765DC20 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Revoltest;
+			productName = Revoltest;
+			productReference = 07F2D3731E44CEFB00E7F62A /* Revoltest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		07F2D38B1E44CEFB00E7F62A /* RevoltestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07F2D3981E44CEFB00E7F62A /* Build configuration list for PBXNativeTarget "RevoltestTests" */;
+			buildPhases = (
+				E85AB66400F63C3AD5A8DA10 /* [CP] Check Pods Manifest.lock */,
+				07F2D3881E44CEFB00E7F62A /* Sources */,
+				07F2D3891E44CEFB00E7F62A /* Frameworks */,
+				07F2D38A1E44CEFB00E7F62A /* Resources */,
+				844C18792DA01D08825898BC /* [CP] Embed Pods Frameworks */,
+				A70452C972C34F140AC3467F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07F2D38E1E44CEFB00E7F62A /* PBXTargetDependency */,
+			);
+			name = RevoltestTests;
+			productName = RevoltestTests;
+			productReference = 07F2D38C1E44CEFB00E7F62A /* RevoltestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07F2D36B1E44CEFB00E7F62A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = test;
+				TargetAttributes = {
+					07F2D3721E44CEFB00E7F62A = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					07F2D38B1E44CEFB00E7F62A = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 07F2D3721E44CEFB00E7F62A;
+					};
+				};
+			};
+			buildConfigurationList = 07F2D36E1E44CEFB00E7F62A /* Build configuration list for PBXProject "Revoltest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 07F2D36A1E44CEFB00E7F62A;
+			productRefGroup = 07F2D3741E44CEFB00E7F62A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07F2D3721E44CEFB00E7F62A /* Revoltest */,
+				07F2D38B1E44CEFB00E7F62A /* RevoltestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07F2D3711E44CEFB00E7F62A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07F2D3861E44CEFB00E7F62A /* LaunchScreen.storyboard in Resources */,
+				07F2D3831E44CEFB00E7F62A /* Assets.xcassets in Resources */,
+				07F2D3811E44CEFB00E7F62A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07F2D38A1E44CEFB00E7F62A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		18501E35307D39AC6BDE26FB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		62560C511EA5370D305C7F40 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Revoltest/Pods-Revoltest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		844C18792DA01D08825898BC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RevoltestTests/Pods-RevoltestTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A70452C972C34F140AC3467F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RevoltestTests/Pods-RevoltestTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E85AB66400F63C3AD5A8DA10 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F3E97E331D78A1AD4765DC20 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Revoltest/Pods-Revoltest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07F2D36F1E44CEFB00E7F62A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				076C27771E48A18E00196880 /* CurrencyAmountModel.m in Sources */,
+				076C275A1E474F2A00196880 /* CurrencyExchangerVC.m in Sources */,
+				076C276C1E47AA7800196880 /* CurrencyPagerVC.m in Sources */,
+				076C277C1E48AAD900196880 /* CurrencyRateModel.m in Sources */,
+				076C27591E474F2A00196880 /* AppDelegate.m in Sources */,
+				076C27841E493A1100196880 /* RootVC.m in Sources */,
+				07F2D3781E44CEFB00E7F62A /* main.m in Sources */,
+				076C27801E48AE6C00196880 /* CurrencyPair.m in Sources */,
+				076C276F1E47B55D00196880 /* NSArray+Test.m in Sources */,
+				076C27601E4757B100196880 /* CurrencyVC.m in Sources */,
+				076C27661E4788D700196880 /* UIStackView+Test.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07F2D3881E44CEFB00E7F62A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				076C27811E48AE6C00196880 /* CurrencyPair.m in Sources */,
+				076C277D1E48AAD900196880 /* CurrencyRateModel.m in Sources */,
+				076C27791E48AAB500196880 /* CurrencyAmountModel.m in Sources */,
+				07F2D3911E44CEFB00E7F62A /* RevoltestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07F2D38E1E44CEFB00E7F62A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07F2D3721E44CEFB00E7F62A /* Revoltest */;
+			targetProxy = 07F2D38D1E44CEFB00E7F62A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		07F2D37F1E44CEFB00E7F62A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07F2D3801E44CEFB00E7F62A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		07F2D3841E44CEFB00E7F62A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07F2D3851E44CEFB00E7F62A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07F2D3931E44CEFB00E7F62A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		07F2D3941E44CEFB00E7F62A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07F2D3961E44CEFB00E7F62A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8B2BEB9643C969B1D68B6A2 /* Pods-Revoltest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Revoltest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.Revoltest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		07F2D3971E44CEFB00E7F62A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F971EACFD69B334B2D0A8E8F /* Pods-Revoltest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Revoltest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.Revoltest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		07F2D3991E44CEFB00E7F62A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F98DBCCC6E517801273F3EBA /* Pods-RevoltestTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				HEADER_SEARCH_PATHS = (
+					"$(SDKROOT)/usr/include/libxml2",
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/CSSSelectorConverter\"",
+					"\"${PODS_ROOT}/Headers/Public/CocoaLumberjack\"",
+					"\"${PODS_ROOT}/Headers/Public/IGHTMLQuery\"",
+					"\"${PODS_ROOT}/Headers/Public/NUIParse\"",
+					"\"${PODS_ROOT}/Headers/Public/PureLayout\"",
+				);
+				INFOPLIST_FILE = RevoltestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.RevoltestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Revoltest.app/Revoltest";
+			};
+			name = Debug;
+		};
+		07F2D39A1E44CEFB00E7F62A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 270676D6DAB64EBAC00306BF /* Pods-RevoltestTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				HEADER_SEARCH_PATHS = (
+					"$(SDKROOT)/usr/include/libxml2",
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/CSSSelectorConverter\"",
+					"\"${PODS_ROOT}/Headers/Public/CocoaLumberjack\"",
+					"\"${PODS_ROOT}/Headers/Public/IGHTMLQuery\"",
+					"\"${PODS_ROOT}/Headers/Public/NUIParse\"",
+					"\"${PODS_ROOT}/Headers/Public/PureLayout\"",
+				);
+				INFOPLIST_FILE = RevoltestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.RevoltestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Revoltest.app/Revoltest";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07F2D36E1E44CEFB00E7F62A /* Build configuration list for PBXProject "Revoltest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07F2D3931E44CEFB00E7F62A /* Debug */,
+				07F2D3941E44CEFB00E7F62A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07F2D3951E44CEFB00E7F62A /* Build configuration list for PBXNativeTarget "Revoltest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07F2D3961E44CEFB00E7F62A /* Debug */,
+				07F2D3971E44CEFB00E7F62A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07F2D3981E44CEFB00E7F62A /* Build configuration list for PBXNativeTarget "RevoltestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07F2D3991E44CEFB00E7F62A /* Debug */,
+				07F2D39A1E44CEFB00E7F62A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07F2D36B1E44CEFB00E7F62A /* Project object */;
+}

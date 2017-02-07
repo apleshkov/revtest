@@ -1,0 +1,14 @@
+*~
+.DS_Store
+DerivedData
+*.xcodeproj/xcuserdata
+*/*.xcodeproj/xcuserdata
+*.xcworkspace/xcuserdata
+
+Pods
+Podfile.lock
+*.xcworkspace
+
+.idea
+*.swp
+
